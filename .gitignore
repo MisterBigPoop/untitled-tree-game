@@ -1,0 +1,49 @@
+#Calculation 
+# 13. .gitignore - Файл для игнорирования
+gitignore_content = '''*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties'''
+
+with open("TechTreeGame/.gitignore", "w", encoding="utf-8") as f:
+    f.write(gitignore_content)
+
+print("✓ .gitignore создан")
+
+result = 
+# 13. .gitignore - Файл для игнорирования
+gitignore_content = '''*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties'''
+
+with open("TechTreeGame/.gitignore", "w", encoding="utf-8") as f:
+    f.write(gitignore_content)
+
+print("✓ .gitignore создан")
+
+
+#Return
+✓ .gitignore создан
