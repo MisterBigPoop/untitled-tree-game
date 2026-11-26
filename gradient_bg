@@ -1,0 +1,37 @@
+#Calculation 
+# 4. gradient_background.xml - Красивый градиентный фон
+gradient_bg = '''<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:type="linear"
+        android:angle="135"
+        android:startColor="#1a237e"
+        android:centerColor="#283593"
+        android:endColor="#3949ab" />
+</shape>'''
+
+with open("TechTreeGame/app/src/main/res/drawable/gradient_background.xml", "w", encoding="utf-8") as f:
+    f.write(gradient_bg)
+
+print("✓ gradient_background.xml создан")
+
+result = 
+# 4. gradient_background.xml - Красивый градиентный фон
+gradient_bg = '''<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:type="linear"
+        android:angle="135"
+        android:startColor="#1a237e"
+        android:centerColor="#283593"
+        android:endColor="#3949ab" />
+</shape>'''
+
+with open("TechTreeGame/app/src/main/res/drawable/gradient_background.xml", "w", encoding="utf-8") as f:
+    f.write(gradient_bg)
+
+print("✓ gradient_background.xml создан")
+
+
+#Return
+✓ gradient_background.xml создан
