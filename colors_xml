@@ -1,0 +1,53 @@
+#Calculation 
+# 5. colors.xml - Цветовая схема
+colors_xml = '''<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Цвета уровней улучшений -->
+    <color name="upgrade_level_1">#4CAF50</color>
+    <color name="upgrade_level_2">#2196F3</color>
+    <color name="upgrade_level_3">#9C27B0</color>
+    <color name="upgrade_level_4">#FF5722</color>
+    <color name="upgrade_final">#FF1744</color>
+</resources>'''
+
+with open("TechTreeGame/app/src/main/res/values/colors.xml", "w", encoding="utf-8") as f:
+    f.write(colors_xml)
+
+print("✓ colors.xml создан")
+
+result = 
+# 5. colors.xml - Цветовая схема
+colors_xml = '''<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Цвета уровней улучшений -->
+    <color name="upgrade_level_1">#4CAF50</color>
+    <color name="upgrade_level_2">#2196F3</color>
+    <color name="upgrade_level_3">#9C27B0</color>
+    <color name="upgrade_level_4">#FF5722</color>
+    <color name="upgrade_final">#FF1744</color>
+</resources>'''
+
+with open("TechTreeGame/app/src/main/res/values/colors.xml", "w", encoding="utf-8") as f:
+    f.write(colors_xml)
+
+print("✓ colors.xml создан")
+
+
+#Return
+✓ colors.xml создан
