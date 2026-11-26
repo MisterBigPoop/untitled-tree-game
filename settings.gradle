@@ -39,7 +39,7 @@ dependencyResolutionMode {
     }
 }
 rootProject.name = "TechTreeGame"
-include ':app' '''
+include ':app'
 
 with open("TechTreeGame/settings.gradle", "w", encoding="utf-8") as f:
     f.write(settings_gradle)
