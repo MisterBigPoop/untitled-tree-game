@@ -5,12 +5,6 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-dependencyResolutionMode {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
+
 rootProject.name = "TechTreeGame"
 include ':app'
