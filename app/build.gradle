@@ -3,6 +3,12 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+// 👇 ДОБАВЛЯЕМ РЕПОЗИТОРИИ СЮДА
+repositories {
+    google()
+    mavenCentral()
+}
+
 android {
     namespace 'com.example.techtreegame'
     compileSdk 34
