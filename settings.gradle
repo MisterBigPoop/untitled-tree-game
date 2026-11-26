@@ -1,30 +1,4 @@
-#Calculation 
-# 10. settings.gradle - Настройки проекта
-settings_gradle = '''pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
-}
-dependencyResolutionMode {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-rootProject.name = "TechTreeGame"
-include ':app' '''
-
-with open("TechTreeGame/settings.gradle", "w", encoding="utf-8") as f:
-    f.write(settings_gradle)
-
-print("✓ settings.gradle создан")
-
-result = 
-# 10. settings.gradle - Настройки проекта
-settings_gradle = '''pluginManagement {
+pluginManagement {
     repositories {
         google()
         mavenCentral()
@@ -40,12 +14,3 @@ dependencyResolutionMode {
 }
 rootProject.name = "TechTreeGame"
 include ':app'
-
-with open("TechTreeGame/settings.gradle", "w", encoding="utf-8") as f:
-    f.write(settings_gradle)
-
-print("✓ settings.gradle создан")
-
-
-#Return
-✓ settings.gradle создан
