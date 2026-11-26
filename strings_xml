@@ -1,0 +1,27 @@
+#Calculation 
+# 6. strings.xml - Тексты приложения
+strings_xml = '''<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tech Tree Game</string>
+</resources>'''
+
+with open("TechTreeGame/app/src/main/res/values/strings.xml", "w", encoding="utf-8") as f:
+    f.write(strings_xml)
+
+print("✓ strings.xml создан")
+
+result = 
+# 6. strings.xml - Тексты приложения
+strings_xml = '''<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tech Tree Game</string>
+</resources>'''
+
+with open("TechTreeGame/app/src/main/res/values/strings.xml", "w", encoding="utf-8") as f:
+    f.write(strings_xml)
+
+print("✓ strings.xml создан")
+
+
+#Return
+✓ strings.xml создан
